@@ -2,7 +2,7 @@ import React from "react";
 
 function ValidationErrors({ errors = [] }) {
   return errors.length ? (
-    <div className="alert alert-danger">
+    <div className="alert-danger">
       <p>Please fix the following errors:</p>
       <ul>
         {errors.map((error) => (
